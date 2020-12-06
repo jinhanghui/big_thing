@@ -17,9 +17,39 @@ html,body{
     transform: translate(-50%,-50%);
 }
 
-.login img{
+ .login .title{
+     height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.zhuce {
+    display: none;
+}
+
+.layui-form{
+    padding: 0 30px;
+}
+
+.layui-form-item .layui-btn{
+    background-color: rgb(15, 165, 224);
+}
+
+.layui-form .login_box{
+    float: right;
+}
+.layui-form .reg_box{
+    float: right;
+}
+
+.layui-form-item{
+    position: relative;
+}
+
+.layui-icon {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 18px;
+    top: 10px;
+    left: 10px;
+}
+.layui-form-item .layui-input {
+    padding-left: 32px;
 }
