@@ -13,6 +13,11 @@ iframe{
 .layui-body {
     overflow: hidden;
 }
+
+.iconfont{
+    margin-right: 8px;
+}
+
 a{
     transition: none !important;
 }
