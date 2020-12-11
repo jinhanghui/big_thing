@@ -11,6 +11,8 @@ $(function () {
     getUserInfo()
 })
 var layer = layui.layer
+
+//获取，更新基本信息
 function getUserInfo() {
     $.ajax({
         method: 'GET',
